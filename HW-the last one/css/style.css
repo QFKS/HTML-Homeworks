@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&family=Shadows+Into+Light&display=swap');
+*{
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    text-align: -webkit-center;
+}
+homepage{
+    width: 1440px;
+    height: 5725px;
+    background: #FFFFFF;
+}
+header{
+    width: 1440px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 6px 7px 9px rgba(0, 0, 0, 0.03);
+  
+}
+.heady{
+    height: 6em;
+    display: inline-flex;
+}
+.abilmente-magazine{
+    padding: 1.5em 3em;
+} 
+.navi{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    gap: 4em;
+    padding: 2em;
+    list-style: none;
+}
+.vector-solid{
+    width: 10px;
+    height: 5px;
+}
+.icon-search{
+    width: 20.83px;
+    height: 20px;
+    padding: 2em 5em;
+}
+.annachiara{
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1em;
+    padding: 1em;
+}
+slider{
+    width: 1440px;
+    height: 584px;
+}
+.header-slider{
+    float: right;
+}
+.boxslider{
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.15));
+    background: url(../img/Rectangle.png);
+    padding: 0.29em 0em 0em 0.25em;
+    width: 407px;
+    height: 144px;
+}
+.subt{
+    float: right;
+   
+    width: 15em;
+}
+p2{
+font-size: 18px;
+padding: 3em 0em 0em 0em;
+display: flex;
+width: 12em;
+}
+b{
+    font-family: 'Poppins';
+    font-size: 9px;
+    letter-spacing: 0.01em;
+    color: #F39200;
+}
+.you{
+    background: url(../img/you.png);
+    width: 1440px;
+    height: 584px;
+}
+.youback{
+    background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%);
+    width: 1440px;
+    height: 584px;
+    
+}
+a{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 103.5%;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.text-you{
+    float: left;
+    width: 50em;
+    padding: 19em 0em 0em 3em;
+    color: #FFFFFF;
+}
+.boxes{
+    padding: 2em 10em;
+    gap: 2em;
+    display: grid;
+    text-align: justify;
+    justify-content: flex-start;
+}
+.row1{
+    width: 1440px;  
+    height: 856px;
+}
+.rectangle-back{
+    background: #F4ECE8;
+    width: 1440px;
+    height: 856px;
+}
+.fletti{
+    width: 1260px;
+    height: 66px;
+    display: inline-flex;
+}
+.fletti>b{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 103.5%;
+display: flex;
+align-items: flex-end;
+color: black;
+}
+.p3{
+float: right;
+width: 1440px;
+display: inline-flex;
+justify-content: flex-end;
+padding: 2em 1em 0em 0em;
+}
+.line{
+    border: 1px solid #B5B7C4;
+    width: 1440px;
+}
+.back-199{
+    width: 833px;
+    height: 647px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    float: left;
+}
+.box-grande-news{
+    width: 833px;
+    height: 647px;
+    padding: 0.2em 0em;
+    margin-top: 1em;
+}
+.diy{
+    height: 343px;
+    left: 5px;
+    right: 5px;
+    top: calc(50% - 343px/2 - 147px);
+
+    background: url(image.png);
+    border-radius: 2px 2px 0px 0px;
+}
+
+p4{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130.4%;
+    display: block;
+    align-items: flex-end;
+    text-align: center;
+    color: #F39200;
+    padding: 2em;
+}
+b4{
+    font-family: 'Abhaya Libre';
+    font-size: 40px;
+    line-height: 114.3%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #3D3D3C;
+}
+p5{
+    display: block;
+    align-items: flex-end;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    color: #F39200;
+    padding: 2em;
+}
+button{
+    height: 40px;
+    width: 799px;
+    border-radius: 4px;
+    background: none;
+}
+button:hover{
+    background: chartreuse;
+    font-size: 20px;
+}
+.box-da3{
+    display: flex;
+}
+.rectangle201{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 1em;
+
+}
+.rectangle203{
+    float: left;
+    width: 196px;
+    height: 305px;
+}
+.title-203{
+    display: flex;
+    flex-flow: column;
+    padding: 0.2em 0.2em;
+}
+.butoni-90{
+    width: 12.5em;
+}
+.butoni-90:hover{
+    width: 12.5;
+    font-size: 16px;
+}
+.t203{
+    padding: 0.2em 0.2em;
+    display: flex;
+}
+
+

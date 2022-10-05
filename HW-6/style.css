@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter','Source Sans Pro';
+    font-style: normal;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+header{
+    width: 1081px;
+    background: #000;
+    display: inline-table;
+    padding: 1.4em;
+}
+b{
+    color: aliceblue;
+    font-weight: 900;
+    float: left;
+}
+b1{
+    color: #FAE800;
+    font-weight:900;
+    float: left;
+}
+button:hover{
+    background: none;
+    cursor: pointer;
+    color: blue;
+}
+.blog,.projects{
+    float: right;
+    background: none;
+    color: aliceblue;
+    width: 8em;
+    border: none;
+}
+.fa{
+    text-decoration-line: none;   
+    float: right;
+    color: white;
+    padding: 0em 0.3em;
+}
+.Hero{
+    width: 1081px;
+    background: #FAE800;
+    padding: 9em 5em 10em 12em;
+}
+.Hero>b{
+    color: black;
+    font-weight: 900;
+    font-size: 8em;
+    display: contents;
+    padding: 1em 0em 0em 2em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Hero>b2{
+    font-weight: 900;
+    font-size: 8em;
+    color: aliceblue;
+}
+.Hero>t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 15em 0em 8em;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+   
+}
+.about-me{
+    display: table-caption;
+}
+.about-me>b{
+    font-family: Sans-serif;
+    font-size: 48px;
+    color: gray;
+    opacity: 0.4;
+    padding: 0em 0em 0em 3em;
+}
+bsecond{
+    color: #FAE800;
+    font-weight: 900;
+    font-size: 53px;
+    float: left;
+}
+t2{
+    font-family: 'SourceSansPro';
+    display: flex;
+    width: 32em;    
+}
+p{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 900;
+    width: 100px;
+    color: antiquewhite;
+    padding: 1em 1em 0em;
+}
+.projecs{
+    display: inline-table;
+    margin: 0em 3em 0em;
+}
+pr{
+    font-size: 38px;
+    color: #000000;
+    font-weight: 900;
+}
+pr2{
+    font-size: 38px;
+    font-weight: 900;
+    color: #FAE800;
+}
+.seemore{
+    border: none;
+    color: #FAE800;
+    background: none;
+}
+.seemore:hover{
+    color: aqua;
+    background: none;
+}
+
+.contct{
+    display: flex;
+    align-items: center;
+    margin: 1em 14em 0em;
+    gap: 34px;
+}
+tp{
+    position: absolute;
+    padding: 23em 12em 0em 7em;
+    color: blanchedalmond;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+.snailmail>.icon9{
+    position: absolute;
+    margin: 25em 0em 0em 10em;
+}
+.mail>.icon8{
+    position: absolute;
+    margin: 25em 0em 0em 10em;
+}
+footer{
+    height: 68px;
+    display: flex;
+    gap:45px;
+    align-items: center;
+}
+blast{
+    font-size: 24px;
+    font-weight: 900;
+}
+b1last{
+    color: #FAE800;
+    font-weight: 900;
+}
+t{
+    color: #000000;
+}
+ts{
+    color: red;
+}
+.titres{
+    font-size: 12px;
+    margin: 0em 0em 0em 26em;
+}
+.nav>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+}

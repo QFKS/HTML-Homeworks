@@ -1,0 +1,192 @@
+body{
+  background: white;
+  height: 1024px;
+width: 1600px;
+left: -506px;
+top: -546px;
+border-radius: 0px;
+
+}
+div{
+ /* Rectangle 18 */
+
+
+position: absolute;
+width: 1600px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: rgba(28, 82, 221, 0.56);
+}
+div2{
+  position: absolute;
+width: 319px;
+height: 56px;
+left: 103px;
+top: 58px;
+}
+button1{
+position: absolute;
+width: 81px;
+height: 35px;
+left: 746px;
+top: 77px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+
+border-color: rgba(28, 83, 221, 0);
+color: white;
+background-color: rgba(28, 83, 221, 0);
+}
+button2{
+  position: absolute;
+width: 106px;
+height: 35px;
+left: 887px;
+top: 79px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+border-color: rgba(28, 83, 221, 0);
+color: white;
+background-color: rgba(28, 83, 221, 0);
+}
+
+button3{
+  position: absolute;
+width: 118px;
+height: 35px;
+left: 1053px;
+top: 79px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+border-color: rgba(28, 83, 221, 0);
+color: white;
+background-color: rgba(28, 83, 221, 0);
+}
+button4{
+  position: absolute;
+width: 121px;
+height: 35px;
+left: 1231px;
+top: 77px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+border-color: rgba(28, 83, 221, 0);
+color: white;
+background-color: rgba(28, 83, 221, 0);
+
+}
+button5{
+  position: absolute;
+width: 164px;
+height: 61px;
+left: 1391px;
+top: 63px;
+
+background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+border-radius: 13px;
+}
+divbut5{
+  position: absolute;
+width: 92px;
+height: 28px;
+left: 1427px;
+top: 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #E5E5E5;
+}
+letsb{
+  /* Let’s build the future toghether */
+
+
+position: absolute;
+width: 511px;
+height: 164px;
+left: 103px;
+top: 332px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 82px;
+
+color: #FFFFFF;
+
+}
+hurry{
+  /* Hurry up join our community now! */
+position: absolute;
+width: 544px;
+height: 42px;
+left: 103px;
+top: 504px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+color: #E5E5E5;
+}
+butjoin{
+  /* Rectangle 17 */
+position: absolute;
+width: 277px;
+height: 85px;
+left: 103px;
+top: 601px;
+
+background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+border-radius: 13px;
+}
+joinnow{
+  position: absolute;
+  width: 146px;
+  height: 42px;
+  left: 168px;
+  top: 622px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #E5E5E5;
+}
+div6{
+  /* Working process */
+position: absolute;
+height: 678px;
+width: 851px;
+left: 675px;
+top: 215px;
+border-radius: 0px;
+background: url(.png);
+}
