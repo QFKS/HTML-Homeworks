@@ -3,19 +3,17 @@ body{
  background: white;
 font-family: 'Poppins', sans-serif;
  box-sizing: border-box;
- position: relative;
- left: 401px;
- right: -401px;
+justify-content: center;
  display: flex;
 }
-/*
+
  frame1
  {
 position: relative;
   width: 1512px;
   height: 4008px;
   background: #FFFFFF
- }*/
+ }
  .hfix
  {
  display: flex;
@@ -592,9 +590,9 @@ text-align: right;
     align-items: center;
     padding: 0px;
     position: absolute;
-    width: 1810px;
+    width: 1510px;
     height: 499px;
-    left: -200px;
+    
     top: 2571px;
     display: flex;
     background: #FFBE0B;
