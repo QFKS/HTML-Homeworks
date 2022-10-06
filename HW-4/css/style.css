@@ -1,18 +1,8 @@
-
-
-
-html{
-
-    width: 100%;
-    max-width:100%;
-    overflow-x:hidden;
-}
-
   body
   {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    scroll-snap-align: center;
   }
 body{
     box-sizing: border-box;
@@ -348,23 +338,33 @@ q{
     float: right;
 }
 .button:hover{
-    background: aqua;
+    background: blue;
     cursor: pointer;
+   
 }
 .rte{
     color: #FFFFFF;
     white-space: pre;
     font-size: 20px;
 }
+.rte:hover{
+    color: #FFFFFF;
+    font-size: 22px;
+    cursor: pointer;
+}
 gs{
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
 
-color: #000000;
+    color: #000000;
     vertical-align: text-top;
+}
+gs:hover{
+    color: yellow;
+    font-size: 25px;
 }
 .form{
     display: inline-flex;
@@ -403,6 +403,11 @@ plets{
     background: #FFA343;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.emailco:hover{
+    background: blue;
+    color: gold;
+    cursor: pointer;
 }
 input{
     width: 320px;
