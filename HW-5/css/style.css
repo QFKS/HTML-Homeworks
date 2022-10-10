@@ -12,7 +12,7 @@ body{
     }
 }
 a:hover{
-color: aqua;
+    color: aqua;
 }
 i:hover{
     color: blue ;
@@ -25,11 +25,6 @@ i:hover{
 }
 .menu{
     display: contents;
-}
-header{
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
 }
 
 ul>a{
@@ -49,18 +44,11 @@ ul>a{
         color: yellow;
 }
 ul{
-    justify-content: flex-start;
-    display: flex;
-    align-items: center;
     font-size: 28px;
-    gap: 18px;
-    margin: 0em 0em 0em 1em;
+    
 }
 .icons{
-    margin: 0em 0em 0em 25em;
-    display: flex;
-    align-items: center;
-    gap: 1em;
+    float: right;
 }
 a{
     color: #FFFFFF;
@@ -181,7 +169,7 @@ b{
 }
 
 med{
-    display:inline-block;
+    display:block;
     margin: 2em 0em 0em 1.5em;
 }
 .old{
@@ -201,23 +189,19 @@ med{
 }
 
 .frame-3{
-    width: 1464px;
+   
     overflow-x: scroll;
     display: flex;
     gap: 2em;
 }
 .frame-4{
-    width: 1464px;
+   
     overflow-x: scroll;
     display: flex;
     gap: 2em;
 }
 .social{
-    position: absolute;
     width: 82px;
-    height: 27px;
-    left: 80em;
-    top: 2861px;
 }
 title-last{
     font-family: 'Poppins';
@@ -237,12 +221,11 @@ color: #FFFFFF;
     width: 300px;
     height: 252px;
 }
-
 .title2{
-    display: inline-grid;
+    height: 19em;
+    display: grid;
     justify-content: center;
-    margin: 10em 0em 17em 39em;
-    gap: 60px;
+    padding: 3em;
 }
 .title2>pt{
     text-align: center;
@@ -298,30 +281,21 @@ button{
     background: #000000;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+.footer{
+    display: block;
+    background: #000000;
+    width: 390px;
+    height: 435px;
+}
 .legalstuff{
-    position: absolute;
-    width: 91px;
-    height: 74px;   
-    left: 77em;
-    top: 2900px;
-
-/* Footer-Links */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 25px;
-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 .about{
-    position: absolute;
-    width: 162px;
-    height: 74px;
-    left: 62em;
-    top: 2900px;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -330,12 +304,6 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 .help{
-    position: absolute;
-    width: 162px;
-    height: 74px;
-    left: 181px;
-    top: 2850px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -344,11 +312,6 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 .my-account{
-    position: absolute;
-    width: 162px;
-    height: 74px;
-    left: 24px;
-    top: 2850px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -357,11 +320,6 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 .all-rights{
-    position: absolute;
-    width: 214px;
-    height: 25px;
-    left: 649px;
-    top: 252em;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
