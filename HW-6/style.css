@@ -1,14 +1,11 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Inter','Source Sans Pro';
     font-style: normal;
-    justify-content: center;
     text-align: -webkit-center;
 }
 header{
-    width: 1081px;
+    width: 67.5em;
     background: #000;
     display: inline-table;
     padding: 1.4em;
@@ -42,7 +39,7 @@ button:hover{
     padding: 0em 0.3em;
 }
 .Hero{
-    width: 1081px;
+    width: 67.5em;
     background: #FAE800;
     padding: 9em 5em 10em 12em;
 }
@@ -52,12 +49,13 @@ button:hover{
     font-size: 8em;
     display: contents;
     padding: 1em 0em 0em 2em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0.075em 0.085em 0.02em rgba(0, 0, 0, 0.50);
 }
 .Hero>b2{
     font-weight: 900;
     font-size: 8em;
     color: aliceblue;
+    text-shadow: 0.075em 0.085em 0.02em rgba(0, 0, 0, 0.50);
 }
 .Hero>t{
     display: flex;
@@ -71,25 +69,29 @@ button:hover{
    
 }
 .about-me{
-    display: table-caption;
+    width: 67.5em;
+    padding: 0em 19em 0em 19em;
 }
-.about-me>b{
+titl{
     font-family: Sans-serif;
-    font-size: 48px;
+    font-size: 3em;
     color: gray;
     opacity: 0.4;
-    padding: 0em 0em 0em 3em;
+    font-weight: 900;
+    
 }
 bsecond{
     color: #FAE800;
     font-weight: 900;
-    font-size: 53px;
-    float: left;
+    font-size: 3em;
+   
 }
 t2{
     font-family: 'SourceSansPro';
-    display: flex;
-    width: 32em;    
+    display: flex; 
+}
+.titl{
+    width: 67.5em;
 }
 p{
     position: absolute;
@@ -100,8 +102,16 @@ p{
     padding: 1em 1em 0em;
 }
 .projecs{
-    display: inline-table;
-    margin: 0em 3em 0em;
+    display: inline-block;
+    width: 19em;
+}
+.titlecont{
+    width: 67.5em;
+    padding: 2em;
+}
+.frame{
+    white-space: nowrap;
+    padding: 2em 5em;
 }
 pr{
     font-size: 38px;
@@ -117,6 +127,8 @@ pr2{
     border: none;
     color: #FAE800;
     background: none;
+    width: 78.5em;
+   
 }
 .seemore:hover{
     color: aqua;
@@ -125,33 +137,32 @@ pr2{
 
 .contct{
     display: flex;
-    align-items: center;
-    margin: 1em 14em 0em;
-    gap: 34px;
+    width: 67.5em;
+    justify-content: center;
 }
 tp{
-    position: absolute;
-    padding: 22em 12em 0em 7em;
-    width: 27em;
     color: blanchedalmond;
     font-size: 1em;
     font-weight: 600;
-    text-align: center;
+    padding: 23em 0em 0em;
+    display: block;
+    
 }
-.snailmail>.icon9{
-    position: absolute;
-    margin: 25em 0em 0em 9.5em;
+.snailmail{
+    background: url(../HW-6/img/reg9.png);
+    width: 20.875em;
+    height: 31.3125em;
 }
-.mail>.icon8{
-    position: absolute;
-    margin: 25em 0em 0em 10em;
+.mail{
+    background: url(../HW-6/img/reg8.png);    
+    width: 20.875em;
+    height: 31.3125em;
 }
 footer{
-    padding: 1em 0em 1em;
-    display: flex;
-    gap:45px;
-    align-items: center;
-}
+    display: -webkit-inline-box;
+    gap:60px;
+    padding: 2em 2em 2em 2em;
+    }
 blast{
     font-size: 24px;
     font-weight: 900;

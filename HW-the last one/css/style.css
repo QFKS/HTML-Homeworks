@@ -5,15 +5,15 @@
     text-align: -webkit-center;
 }
 homepage{
-    width: 1440px;
-    height: 5725px;
+    width: 90em;
+    height: 357.8125em;
     background: #FFFFFF;
 }
 header{
-    width: 1440px;
-    height: 88px;
+    width: 90em;
+    height: 5.5em;
     background: #FFFFFF;
-    box-shadow: 6px 7px 9px rgba(0, 0, 0, 0.03);
+    box-shadow: 0.375em 0.4375em 0.5625em rgba(0, 0, 0, 0.03);
   
 }
 .heady{
@@ -32,12 +32,12 @@ header{
     list-style: none;
 }
 .vector-solid{
-    width: 10px;
-    height: 5px;
+    width: 0.625em;
+    height: 0.3125em;
 }
 .icon-search{
-    width: 20.83px;
-    height: 20px;
+    width: 1.301875em;
+    height: 1.25em;
     padding: 2em 5em;
 }
 .annachiara{
@@ -48,18 +48,18 @@ header{
     padding: 1em;
 }
 slider{
-    width: 1440px;
-    height: 584px;
+    width: 90em;
+    height: 36.5em;
 }
 .header-slider{
     float: right;
 }
 .boxslider{
-    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0em 0.25em 0.4375em rgba(0, 0, 0, 0.15));
     background: url(../img/Rectangle.png);
     padding: 0.29em 0em 0em 0.25em;
-    width: 407px;
-    height: 144px;
+    width: 25.4375em;
+    height: 9em;
 }
 .subt{
     float: right;
@@ -67,33 +67,33 @@ slider{
     width: 15em;
 }
 p2{
-font-size: 18px;
+font-size: 1.125em;
 padding: 3em 0em 0em 0em;
 display: flex;
 width: 12em;
 }
 b{
     font-family: 'Poppins';
-    font-size: 9px;
+    font-size: 0.5625em;
     letter-spacing: 0.01em;
     color: #F39200;
 }
 .you{
     background: url(../img/you.png);
-    width: 1440px;
-    height: 584px;
+    width: 90em;
+    height: 36.5em;
 }
 .youback{
     background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%);
-    width: 1440px;
-    height: 584px;
+    width: 90em;
+    height: 36.5em;
     
 }
 a{
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75em;
     line-height: 103.5%;
     display: flex;
     align-items: flex-end;
@@ -112,25 +112,29 @@ a{
     text-align: justify;
     justify-content: flex-start;
 }
+
+/* row1 */
+
+
 .row1{
-    width: 1440px;  
-    height: 856px;
+    width: 90em;  
+    height: 53.5em;
 }
 .rectangle-back{
     background: #F4ECE8;
-    width: 1440px;
-    height: 856px;
+    width: 90em;
+    height: 53.5em;
 }
 .fletti{
-    width: 1260px;
-    height: 66px;
+    width: 78.75em;
+    height: 4.125em;
     display: inline-flex;
 }
 .fletti>b{
     font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 700;
-font-size: 60px;
+font-size: 3.75em;
 line-height: 103.5%;
 display: flex;
 align-items: flex-end;
@@ -138,42 +142,46 @@ color: black;
 }
 .p3{
 float: right;
-width: 1440px;
+width: 90em;
 display: inline-flex;
 justify-content: flex-end;
 padding: 2em 1em 0em 0em;
 }
+.row-second{
+    display: inline-block;
+    margin: 2em;
+}
 .line{
-    border: 1px solid #B5B7C4;
-    width: 1440px;
+    border: 0.0625em solid #B5B7C4;
+    width: 78em;
 }
 .back-199{
-    width: 833px;
-    height: 647px;
+    width: 52.0625em;
+    height: 41.6em;
     background: #FFFFFF;
-    border-radius: 4px;
+    border-radius: 0.25em;
     float: left;
+    margin: 1.5em;
 }
 .box-grande-news{
-    width: 833px;
-    height: 647px;
-    padding: 0.2em 0em;
-    margin-top: 1em;
+    width: 52.0625em;
+    height: 40.4375em;
+    padding: 0.3em;
 }
 .diy{
-    height: 343px;
-    left: 5px;
-    right: 5px;
-    top: calc(50% - 343px/2 - 147px);
+    height: 21.4375em;
+    left: 0.3125em;
+    right: 0.3125em;
+    top: calc(50% - 21.4375em/2 - 9.1875em);
 
     background: url(image.png);
-    border-radius: 2px 2px 0px 0px;
+    border-radius: 0.125em 0.125em 0em 0em;
 }
 
 p4{
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.8125em;
     line-height: 130.4%;
     display: block;
     align-items: flex-end;
@@ -183,7 +191,7 @@ p4{
 }
 b4{
     font-family: 'Abhaya Libre';
-    font-size: 40px;
+    font-size: 2.5em;
     line-height: 114.3%;
     display: flex;
     align-items: flex-end;
@@ -195,49 +203,194 @@ p5{
     align-items: flex-end;
     text-align: center;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #F39200;
     padding: 2em;
 }
 button{
-    height: 40px;
-    width: 799px;
-    border-radius: 4px;
+    height: 2.5em;
+    width: 49.9375em;
+    border-radius: 0.25em;
     background: none;
 }
 button:hover{
     background: chartreuse;
-    font-size: 20px;
+    font-size: 0.95em;
 }
 .box-da3{
     display: flex;
+    margin: 1.5em;
 }
 .rectangle201{
     background: #FFFFFF;
-    border-radius: 4px;
-    padding: 1em;
+    border-radius: 0.25em;
+    padding: 0.3em;
+    gap: 1em;
 
 }
 .rectangle203{
     float: left;
-    width: 196px;
-    height: 305px;
+    width: 12.25em;
+    height: 19.0625em;
 }
 .title-203{
-    display: flex;
-    flex-flow: column;
+    text-align: justify;
     padding: 0.2em 0.2em;
 }
 .butoni-90{
     width: 12.5em;
 }
 .butoni-90:hover{
-    width: 12.5;
-    font-size: 16px;
+    width: 12.5em;
+    font-size: 1em;
 }
 .t203{
     padding: 0.2em 0.2em;
     display: flex;
+}.box-da4{
+    display: flex;
+}
+pd{
+    font-weight: 400;
+font-size: 9px;
+line-height: 160%;
+/* or 14px */
+
+
+/* Arancio */
+
+color: #F39200;
+}
+pl{
+    font-weight: 400;
+font-size: 9px;
+line-height: 160%;
+/* or 14px */
+
+
+/* Arancio */
+
+color: black;
+}
+/*row2*/
+
+
+.row2{
+    width: 1260px;
+    height: 458px;
+    background: #F4ECE8;
+    margin: 7em;
+}
+.row2>.fletti{
+    width: 70em;
+    display: inline-flex;
+}
+.row2>.line{
+    width: 70em;
+}
+.Elipsesico{
+    display: inline-flex;
+    margin: 5em;
+}
+.fraslider{
+    background: url('../img/Ellipsefall.png');
+    background-repeat: no-repeat;
+    width: 8em;
+    height: 8em;
+
+}
+.fras{
+    width: 2em;
+    gap: 2em;
+}
+
+.Elipsesico>.imagfra>img{
+    position: relative;
+    top: 1.5em;
+    right: 6.5em;
 }
 
 
+.subtit{
+    margin: 4em 0em 0em 0em;
+    background: #FFFFFF;
+    width: 11.5em;
+    height: 8em;
+}
+.subtit>p2{
+    font-size: 1.125em;
+    padding: 4em 0em 0em 2em;
+    display: flex;
+    width: 12em;
+}
+
+
+.row3{
+    width: 1441px;
+    height: 744px;
+    background: #F4ECE8;
+}
+.box-corso4{
+    width: 407px;
+    border-radius: 4px;
+    height: 480px;
+    display: inline-block;
+    margin: 2em 0.5em;
+}
+.rectangle88{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+}
+.corsophoto,.corsophoto2,.corsophoto3{
+    
+    backdrop-filter: blur(2px);
+
+    width: 397px;
+    height: 235px;
+border-radius: 2px 2px 0px 0px;
+}
+.corsophoto{
+    background: url("../img/corso41.png");
+}
+.corsophoto2{
+    background: url("../img/corso42.png");
+}
+.corsophoto3{
+    background: url("../img/corso43.png");
+}
+.title-204>b,p6,p7{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 130.4%;
+/* or 17px */
+
+
+/* Grigio scuro */
+
+color: #3D3D3C;
+}
+.title-204>p6{
+color: #F39200;
+padding: 0em 0em 0em 16em;
+}
+.title-204>p5{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 120.5%;
+/* or 36px */
+
+
+/* Grigio scuro */
+
+color: #3D3D3C;
+text-align: left;
+width: 14em;
+}
+.butoni-91{
+    width: 22em;
+}
