@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&family=Shadows+Into+Light&display=swap');
 *{
     box-sizing: border-box;
-    -webkit-box-align: center;
     text-align: -webkit-center;
+    
 }
 homepage{
     width: 90em;
@@ -83,6 +83,7 @@ bt{
     letter-spacing: 0.01em;
     color: #000000;
     font-weight: 800;
+    text-align: left;
 }
 bs{
     font-size: 1.5em;
@@ -173,14 +174,11 @@ padding: 2em 1em 0em 0em;
 .box-grande-news{
     width: 52.0625em;
     height: 40.4375em;
-    padding: 0.3em;
+    display: block;
+    text-align: center;
 }
 .diy{
-    height: 21.4375em;
-    left: 0.3125em;
-    right: 0.3125em;
-    top: calc(50% - 21.4375em/2 - 9.1875em);
-
+    margin-top: 0.3em;
     background: url(image.png);
     border-radius: 0.125em 0.125em 0em 0em;
 }
@@ -212,7 +210,7 @@ p5{
     font-weight: 900;
     font-size: 1.125em;
     color: #F39200;
-    padding: 2em;
+    margin: 1em 0em 1em 1em;
 }
 button{
     height: 2.5em;
@@ -222,7 +220,7 @@ button{
 }
 button:hover{
     background: chartreuse;
-    font-size: 0.95em;
+    cursor: pointer;    
 }
 .box-da3{
     display: flex;
@@ -246,19 +244,12 @@ button:hover{
 }
 .butoni-90{
     width: 12.5em; 
-    margin-top: 10.2em;
 }
 .butoni-901{
     width: 12.5em; 
-    margin-top: 8.7em;
-}
-.butoni-90:hover{
-    width: 12.5em;
-    font-size: 1em;
-}
-.butoni-901:hover{
-    width: 12.5em;
-    font-size: 1em;
+}   
+.buttondown{
+    margin-top: 12em;
 }
 .t203{
     padding: 0.2em 0.2em;
@@ -378,6 +369,10 @@ color: black;
 .corsophoto3{
     background: url("../img/corso43.png");
 }
+.title-204{
+    display: block;
+    text-align: center;
+}
 .title-204>b,p6,p7{
     font-family: 'Poppins';
     font-style: normal;
@@ -407,6 +402,8 @@ p6-1{
 }
 .butoni-91{
     width: 22em;
+    margin: 0em 0em 1em 0em;
+  
 }
 .row4{
     width: 78.75em;
@@ -470,12 +467,12 @@ fr{
     color: #FFFFFF;
     margin-top: 0.8em;
     float: left;
-    width: 6em;
+    width: 4em;
 }
 fl{
     font-size: 1.5625em;
     color: #FFFFFF;
-    width: 12em;
+    width: 14em;
     float: left;
 }
 .frame{
@@ -543,9 +540,7 @@ novita{
     padding: 5em;
 }
 .namein{
-    width: 20em;
     padding: 3em 0em 1em 0em;
-    display: inline-block;
 }
 .email{
     display: inline-block;
@@ -612,6 +607,7 @@ p{
     display: flex;
     gap: 9em;
     width: 83.5em;
+    margin: 0em 3em;
 }
 a{
     color: black;
@@ -657,7 +653,7 @@ novit{
 .intup{
     width: 20em;
     display: inline-block;
-    float: left;
+    
 }
 .lettai{
     float: right;
@@ -674,8 +670,9 @@ height: 13.875em;
     padding: 2em 4em;
 }
 .logotriple{
-    padding: 5em 0em 3em 32em;
+    padding: 5em 0em 3em 34em;
     display: flex;
+    gap: 3em;
 }
 .lastone{
     width: 1440px;
