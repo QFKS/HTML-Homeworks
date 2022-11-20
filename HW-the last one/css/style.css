@@ -19,25 +19,31 @@ header{
 .heady{
     height: 6em;
     display: inline-flex;
+    width: 90em;
 }
 .abilmente-magazine{
-    padding: 1.5em 3em;
+    padding: 1.5em 6em;
     float: left;
 } 
+.magazine{
+    float: right;
+}
 .navi{
     text-decoration: none;
     display: flex;
-    gap: 5em;
-    padding: 1em;
+    gap: 1.5em;
+    padding: 1em 5em;
     list-style: none;
+    width: 45em;
 }
+
 .vector-solid{
     width: 0.625em;
 }
 .icon-search{
     width: 1.301875em;
     height: 1.25em;
-    padding: 2em 5em;
+    padding: 2em 10em;
 }
 .annachiara{
     display: -webkit-box;
@@ -76,7 +82,8 @@ b{
     font-size: 2em;
     letter-spacing: 0.01em;
     color: #000000;
-    padding: 0.5em;
+    width: 20em;
+    text-align: start;
 }
 bt{
     font-size: 1em;
@@ -135,12 +142,11 @@ aa{
 
 .row1{
     width: 90em;  
-    height: 53.5em;
 }
 .rectangle-back{
     background: #F4ECE8;
     width: 90em;
-    height: 53.5em;
+   /* height: 53.5em;*/
 }
 .fletti{
     width: 78.75em;
@@ -149,14 +155,14 @@ aa{
 }
 
 .p3{
-float: right;
-width: 90em;
-display: inline-flex;
-justify-content: flex-end;
-padding: 2em 1em 0em 0em;
+    float: right;
+    width: 90em;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 2em 1em 0em 0em;
 }
 .row-second{
-    display: inline-block;
+   display: table-row;
     margin: 2em;
 }
 .line{
@@ -247,9 +253,20 @@ button:hover{
 }
 .butoni-901{
     width: 12.5em; 
+    margin: 0em 2.5em 0.5em;
 }   
+.butoni-901:hover{
+    color: #000000;
+}
 .buttondown{
-    margin-top: 12em;
+    margin-top: 11.5em;
+}
+.buttondown:hover{
+    margin-top: 11.5em;
+    color: #059EB3;
+}
+.bottoni-outline{
+    margin-top: 3.1em;
 }
 .t203{
     padding: 0.2em 0.2em;
@@ -274,13 +291,7 @@ pl{
 
 color: black;
 }
-.p3{
-    float: right;
-    width: 90em;
-    display: inline-flex;
-    justify-content: flex-end;
-    padding: 2em 1em 0em 0em;
-}
+
 /*row2*/
 
 
@@ -297,6 +308,9 @@ color: black;
 }
 .row2>.line{
     width: 70em;
+}
+row2-2{
+    background: #F4ECE8;
 }
 .Elipsesico{
     display: inline-flex;
@@ -570,6 +584,10 @@ p{
     font-size: 0.5625em;
     line-height: 160%;
     color: #3D3D3C;
+    padding: 1.5em 0em;
+}
+.vector-solid2{
+    padding: 1.1em 0em;
 }
 .inputtab{
     float:left;
@@ -589,7 +607,11 @@ p{
     width: 90em;
     height: 33em;
     background: #F4ECE8;
+    display: inline-block;
     
+}
+z{
+    color: #B5B7C4;
 }
 .social{
     padding: 1em 0em 0em 0em;
@@ -692,4 +714,61 @@ color: #3D3935;
 padding: 2em;
 width: 88em;
 display: inline-flex;
+}
+.HomeNews{
+    padding: 1em 6em;
+    display: flex;
+    gap: 1em;
+}
+
+.News{
+    background: white;
+    width: 1250px;
+    height: 198px;
+    padding: 2em;
+}
+.one{
+    display: table-row;
+    background: white;
+    border: 2px solid white;
+    text-align: left;
+    gap: 1em;
+}
+v{
+    font-weight: 500;
+font-size: 26px;
+}
+.components{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.components2{
+  
+    margin-top: 2em;
+    width: 78em;
+
+}
+b1{
+    font-size: 26px;
+    font-weight: 800;
+}
+.taggiuno{
+    display: flex;
+    width: 48em;
+    gap: 24em;
+}
+.newsby{
+    float: left;
+    width: 5em;
+    display: table-row;
+    text-align: left;
+}
+.lorb{
+    display: inline;
+    width: 41em;
+    padding: 0em 8em;
+    font-size: 20px;
+    float: left;
+    text-align: left;
 }
