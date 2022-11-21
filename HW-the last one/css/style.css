@@ -84,6 +84,7 @@ b{
     color: #000000;
     width: 20em;
     text-align: start;
+    padding: 0.5em;
 }
 bt{
     font-size: 1em;
@@ -620,7 +621,7 @@ z{
     font-size: 1.5em;
 }
 .line7{
-    width: 68.8em;
+    width: 62.8em;
     border-top: 0.0625em solid blueviolet;
     display: inline-table;
     float: left;
@@ -643,6 +644,7 @@ ab{
     font-weight: 500;
     display: block;
     text-align: left;
+    
 }
 .line8{
     display: inline-table;
