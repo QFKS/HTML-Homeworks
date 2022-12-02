@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     text-align: -webkit-center;
-    
+    text-align: -moz-center;
 }
 homepage{
     width: 90em;
@@ -43,7 +43,7 @@ header{
 .icon-search{
     width: 1.301875em;
     height: 1.25em;
-    padding: 2em 10em;
+    padding: 2em 8em;
 }
 .annachiara{
     display: -webkit-box;
@@ -151,8 +151,8 @@ aa{
 }
 .fletti{
     width: 78.75em;
-    height: 4.125em;
     display: inline-flex;
+    padding: 1em 0em 0em;
 }
 
 .p3{
@@ -368,9 +368,7 @@ row2-2{
     padding: 0.3em 0.3em 0.3em 0.3em;
 }
 .corsophoto,.corsophoto2,.corsophoto3{
-    
-    backdrop-filter: blur(0.125em);
-
+   
     width: 24.8125em;
     height: 14.6875em;
     border-radius: 0.125em 0.125em 0em 0em;
@@ -590,16 +588,20 @@ p{
 .vector-solid2{
     padding: 1.1em 0em;
 }
-.inputtab{
+.inputtab1,.inputtab2{
     float:left;
+    height: 1em;
+    width: 20em;
+    display: flex;
 }
 .inputtab>input{
     width: 2em;
 }
+
 .butoni{
     width: 11em;
     float: left;
-    margin-top: 1em;
+ 
 }
 .butoni:hover{
    background-color: yellow;
@@ -609,7 +611,10 @@ p{
     height: 33em;
     background: #F4ECE8;
     display: inline-block;
-    
+}
+.row7-1{
+    background: #F4ECE8;
+    width: 90em;
 }
 z{
     color: #B5B7C4;
@@ -721,6 +726,7 @@ display: inline-flex;
     padding: 1em 6em;
     display: flex;
     gap: 1em;
+    align-items: baseline;
 }
 
 .News{
@@ -744,6 +750,9 @@ font-size: 26px;
     display: flex;
     gap: 1em;
     justify-content: center;
+    background: #F4ECE8;
+    width: 90em;
+    padding: 4em 0em 4em 0em;
 }
 .components2{
   
@@ -758,7 +767,27 @@ b1{
 .taggiuno{
     display: flex;
     width: 48em;
-    gap: 24em;
+    gap: 10em;
+    margin: 0em 15em;
+}
+zh{
+    text-transform: uppercase;
+    color: grey;
+    float: left;
+   
+}
+.right_line{
+    border-top: 0.0625em solid #B5B7C4;
+    width: 21em;
+    float: left;
+}
+.block_one{
+    display: flex;
+    margin: 2em;
+}
+.right_block_text{
+    text-align: justify;
+    margin: 0em 1em;
 }
 .newsby{
     float: left;
@@ -769,8 +798,51 @@ b1{
 .lorb{
     display: inline;
     width: 41em;
-    padding: 0em 8em;
+    padding: 0em 3em 0em 8.5em;
     font-size: 20px;
     float: left;
     text-align: left;
+}
+.lorb2{
+    width: 47em;
+    padding: 0em 10em 0em 0em;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+.nextarrow{
+    width: 90em;
+    text-align: justify;
+}
+
+.arrow-circle {
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    margin: 20px;
+}
+.arrow-circle .arrow-circle-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-circle .arrow-circle-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-circle:hover .arrow-circle-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-circle:hover .arrow-circle-iconcircle {
+    stroke-dashoffset: 0;
 }
