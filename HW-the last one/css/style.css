@@ -11,13 +11,11 @@ homepage{
 }
 header{
     width: 90em;
-    height: 5.5em;
     background: #FFFFFF;
     box-shadow: 0.375em 0.4375em 0.5625em rgba(0, 0, 0, 0.03);
   
 }
 .heady{
-    height: 6em;
     display: inline-flex;
     width: 90em;
 }
@@ -26,36 +24,33 @@ header{
     float: left;
 } 
 .magazine{
-    float: right;
+    float: left;
 }
 .navi{
-    text-decoration: none;
-    display: flex;
-    gap: 1.5em;
-    padding: 1em 5em;
-    list-style: none;
-    width: 45em;
+        display: flex;
+        gap: 1.5em;
+        padding: 0em 5em;
+        list-style: none;
+        width: 45em;
+        align-items: center;
 }
 
-.vector-solid{
+/* .vector-solid{
     width: 0.625em;
-}
+} */
 .icon-search{
-    width: 1.301875em;
-    height: 1.25em;
-    padding: 2em 8em;
+    padding: 0em 3em;
+    display: inline-flex;
+    align-items: center;
 }
 .annachiara{
-    display: -webkit-box;
+    display: inline-flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 1em;
     padding: 1em;
 }
-slider{
-    width: 90em;
-    height: 36.5em;
-}
+
 .header-slider{
     float: right;
 }
@@ -103,14 +98,12 @@ bs{
 p3{
     align-self: flex-start;
 }
-.you{
+.block-one{
     background: url(../img/you.png);
     width: 90em;
-    height: 36.5em;
 }
-.youback{
+.block-one-background{
     background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%);
-    width: 90em;
     height: 36.5em;
     
 }
@@ -124,7 +117,7 @@ aa{
     align-items: flex-end;
     color: #FFFFFF;
 }
-.text-you{
+.text-blockone{
     float: left;
     width: 50em;
     padding: 19em 0em 0em 3em;
@@ -133,10 +126,9 @@ aa{
 .boxes{
     padding: 2em 10em;
     gap: 2em;
-    display: grid;
-    text-align: justify;
-    justify-content: flex-start;
-}
+    display: flex;
+    flex-flow: column;
+   }
 
 /* row1 */
 
@@ -251,6 +243,7 @@ button:hover{
 }
 .butoni-90{
     width: 12.5em; 
+    padding: 0.5em;
 }
 .butoni-901{
     width: 12.5em; 
@@ -594,6 +587,9 @@ p{
     width: 20em;
     display: flex;
 }
+input:hover{
+    border-style: 1px;
+}
 .inputtab>input{
     width: 2em;
 }
@@ -633,9 +629,9 @@ z{
 }
 .navazine{
     display: flex;
-    gap: 9em;
+    gap: 8em;
     width: 83.5em;
-    margin: 0em 3em;
+    margin: 0em 6em;
 }
 a{
     color: black;
@@ -653,7 +649,7 @@ ab{
 }
 .line8{
     display: inline-table;
-    width: 84em;
+    width: 78em;
     margin-top: 3em;
     border-top: 0.0625em solid blueviolet;
 }
@@ -669,13 +665,14 @@ lano{
     font-size: 1.5em;
     line-height: 136%;
     color: #3D3D3C;
-    width: 10em;
+    width: 17em;
     float: left;
     display: block;
     text-align: left;
+    padding: 0em 2em;
 }
 novit{
-    padding: 4em 0em;
+    padding: 4em 3em;
     display: block;
     text-align: left;
 }
@@ -846,3 +843,35 @@ i {
 .arrow-circle:hover .arrow-circle-iconcircle {
     stroke-dashoffset: 0;
 }
+.animationone {
+    width: 90em;
+    background: violet;
+    position: relative;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 2em;}
+    50%  {top: 2em; left: 2em;}
+    75%  {top: 2em; left: 0px; }
+    100% {top: 0px; left: 0px;}
+  }
+  .butonimove:hover{
+    width: 100%;
+   
+    position: relative;
+    animation: butonimove 8s infinite;
+  }
+  @keyframes butonimove{
+    0%   {font-size: 0.9em;}
+    10% {font-size: 0.9em;}
+    25%  {font-size: 0.8em;}
+    35% {font-size: 0.7em;}
+    50%  {font-size: 0.6em;}
+    60% {font-size: 0.7em;}
+    75%  {font-size: 0.8em;}
+    100% {font-size: 0.9em;}
+}
+
+ 
